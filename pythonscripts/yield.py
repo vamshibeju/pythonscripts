@@ -8,7 +8,7 @@ for x in foo(5):
 def foo(value):
  while True:
      value = (yield value)
-    
+
 bar = foo(1)
 print(next(bar))
 print(next(bar))
