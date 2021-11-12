@@ -1,0 +1,10 @@
+1)raw_input and input difference is the o/p of raw_input is always a string but for input it may be a string and may not be .
+2) print vs return 
+print - if we want to show the value to human we can use print 
+return - it is a keyword when return is reached then python will stop the current execution
+Use return when you want to send a value from one point in your code to another.
+3)json.load vs loads 
+json.load() is used to read the JSON document from file 
+json.loads() is used to convert the JSON String document into the Python dictionary.
+4)Any
+Returns true if any of the items is True. It returns False if empty or all are false. Any can be thought of as a sequence of OR
